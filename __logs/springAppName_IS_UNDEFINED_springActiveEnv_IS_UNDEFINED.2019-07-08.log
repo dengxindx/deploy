@@ -1,0 +1,558 @@
+2019-07-08 10:09:51.709 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 27292 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 10:09:51.722 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 10:09:53.660 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 10:09:53.684 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:09:53.694 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 10:09:53.694 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 10:09:53.910 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 10:09:53.910 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2110 ms
+2019-07-08 10:09:54.393 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 10:09:54.545 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 10:09:54.632 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:09:54.658 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 10:09:54.661 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 4.539 seconds (JVM running for 6.509)
+2019-07-08 10:09:57.249 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 10:09:57.263 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 10:09:57.263 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 10:09:57.297 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 34 ms
+2019-07-08 10:13:13.712 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 26948 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 10:13:13.716 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 10:13:15.166 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 10:13:15.181 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:13:15.191 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 10:13:15.192 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 10:13:15.318 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 10:13:15.319 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1560 ms
+2019-07-08 10:13:15.686 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 10:13:15.847 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 10:13:15.950 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:13:15.995 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 10:13:16.000 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 4.388 seconds (JVM running for 5.645)
+2019-07-08 10:13:20.859 [http-nio-8855-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 10:13:20.867 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 10:13:20.867 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 10:13:20.874 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-07-08 10:15:17.833 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 22268 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 10:15:17.836 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 10:15:19.530 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 10:15:19.553 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:15:19.562 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 10:15:19.562 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 10:15:19.656 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 10:15:19.656 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1655 ms
+2019-07-08 10:15:19.969 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 10:15:20.174 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 10:15:20.264 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:15:20.288 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 10:15:20.323 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.398 seconds (JVM running for 4.75)
+2019-07-08 10:15:24.519 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 10:15:24.525 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 10:15:24.525 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 10:15:24.541 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-07-08 10:20:06.366 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 26616 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 10:20:06.368 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 10:20:07.899 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 10:20:07.914 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:20:07.929 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 10:20:07.929 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 10:20:08.053 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 10:20:08.054 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1602 ms
+2019-07-08 10:20:08.446 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 10:20:08.620 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 10:20:08.695 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:20:08.721 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 10:20:08.725 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.433 seconds (JVM running for 5.117)
+2019-07-08 10:20:11.151 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 10:20:11.160 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 10:20:11.160 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 10:20:11.167 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-07-08 10:24:30.747 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 26740 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 10:24:30.750 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 10:24:32.022 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 10:24:32.036 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:24:32.046 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 10:24:32.046 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 10:24:32.199 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 10:24:32.200 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1375 ms
+2019-07-08 10:24:32.633 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 10:24:32.774 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 10:24:32.882 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:24:32.915 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 10:24:32.921 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.09 seconds (JVM running for 6.088)
+2019-07-08 10:24:37.698 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 10:24:37.704 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 10:24:37.705 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 10:24:37.711 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-07-08 10:24:42.556 [http-nio-8855-exec-8] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
+2019-07-08 10:24:51.817 [http-nio-8855-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'cmd' is not present]
+2019-07-08 10:26:12.055 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 26048 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 10:26:12.058 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 10:26:13.591 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 10:26:13.604 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:26:13.623 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 10:26:13.623 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 10:26:13.930 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 10:26:13.930 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1826 ms
+2019-07-08 10:26:14.345 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 10:26:14.509 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 10:26:14.626 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 10:26:14.664 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 10:26:14.668 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.584 seconds (JVM running for 5.76)
+2019-07-08 10:26:19.917 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 10:26:19.955 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 10:26:19.955 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 10:26:19.990 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 35 ms
+2019-07-08 11:44:46.317 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 20092 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 11:44:46.320 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 11:44:49.472 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 11:44:49.501 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 11:44:49.532 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 11:44:49.532 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 11:44:49.675 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 11:44:49.676 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3255 ms
+2019-07-08 11:44:50.293 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 11:44:50.428 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 11:44:50.525 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 11:44:50.576 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 11:44:50.579 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 5.36 seconds (JVM running for 6.784)
+2019-07-08 11:44:55.311 [http-nio-8855-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 11:44:55.319 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 11:44:55.319 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 11:44:55.328 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-07-08 14:56:40.729 [http-nio-8855-exec-3] INFO  DeployService - 传入的jar包，直接进行部署。file=console-deploy-server-0.0.1-SNAPSHOT.jar，cmd=java -jar console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 14:56:40.737 [http-nio-8855-exec-3] INFO  ProcessService - 启动程序...
+2019-07-08 14:57:22.545 [http-nio-8855-exec-6] INFO  ProcessService - 进程关闭成功.
+2019-07-08 15:21:31.862 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 29432 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 15:21:31.865 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 15:21:33.393 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 15:21:33.417 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:21:33.431 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 15:21:33.431 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 15:21:33.679 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 15:21:33.679 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1769 ms
+2019-07-08 15:21:33.997 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 15:21:34.118 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 15:21:34.197 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:21:34.228 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 15:21:34.231 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.502 seconds (JVM running for 4.732)
+2019-07-08 15:21:43.128 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 15:21:43.136 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 15:21:43.137 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 15:21:43.148 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-07-08 15:22:29.152 [http-nio-8855-exec-7] INFO  DeployService - 传入的jar包，直接进行部署。file=console-deploy-server-0.0.1-SNAPSHOT.jar，cmd=java -Dfile.encoding=utf-8 -jar console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 15:22:29.160 [http-nio-8855-exec-7] INFO  ProcessService - 启动程序...
+2019-07-08 15:23:01.931 [http-nio-8855-exec-10] INFO  ProcessService - 进程关闭成功.
+2019-07-08 15:23:24.737 [http-nio-8855-exec-1] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 15:23:24.738 [http-nio-8855-exec-1] INFO  ProcessService - 启动程序...
+2019-07-08 15:25:54.806 [http-nio-8855-exec-7] INFO  ProcessService - 进程关闭成功.
+2019-07-08 15:27:21.879 [http-nio-8855-exec-10] INFO  DeployService - 无法进行部署：deployF=D:\console-deploy-server\target\deployFile\target\console-deploy-server-0.0.1-SNAPSHOT.jar, cmd=null
+2019-07-08 15:28:51.487 [http-nio-8855-exec-7] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 15:28:51.521 [http-nio-8855-exec-7] ERROR DeployService - target.zip，文件转换失败D:\console-deploy-server\target\deployFile\target\target.zip (系统找不到指定的路径。)
+2019-07-08 15:31:09.476 [http-nio-8855-exec-2] INFO  ProcessService - 启动程序...
+2019-07-08 15:32:56.715 [http-nio-8855-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
+2019-07-08 15:33:40.095 [http-nio-8855-exec-3] INFO  ProcessService - 进程关闭成功.
+2019-07-08 15:34:44.248 [http-nio-8855-exec-3] INFO  ProcessService - 启动程序...
+2019-07-08 15:39:56.470 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 29264 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 15:39:56.473 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 15:39:58.045 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 15:39:58.090 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:39:58.103 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 15:39:58.103 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 15:39:58.268 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 15:39:58.268 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1668 ms
+2019-07-08 15:39:59.086 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 15:39:59.194 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 15:39:59.278 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:39:59.309 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 15:39:59.323 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 4.052 seconds (JVM running for 5.552)
+2019-07-08 15:40:24.210 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 15:40:24.217 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 15:40:24.217 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 15:40:24.222 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-07-08 15:42:00.296 [http-nio-8855-exec-2] INFO  DeployService - 无法进行部署：deployF=D:\console-deploy-server\target\deployFile\target\console-deploy-server-0.0.1-SNAPSHOT.jar, cmd=null
+2019-07-08 15:44:58.407 [http-nio-8855-exec-8] ERROR DeployService - target.zip，文件转换失败D:\console-deploy-server\target\deployFile\target\target.zip (系统找不到指定的路径。)
+2019-07-08 15:46:45.598 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 27492 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 15:46:45.601 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 15:46:46.957 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 15:46:46.978 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:46:46.988 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 15:46:46.989 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 15:46:47.143 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 15:46:47.143 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1482 ms
+2019-07-08 15:46:47.503 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 15:46:47.656 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 15:46:47.766 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:46:47.828 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 15:46:47.867 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.247 seconds (JVM running for 4.564)
+2019-07-08 15:47:34.043 [http-nio-8855-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 15:47:34.052 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 15:47:34.053 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 15:47:34.060 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-07-08 15:47:59.054 [http-nio-8855-exec-8] INFO  DeployService - 无法进行部署：deployF=D:\console-deploy-server\target\deployFile\target\console-deploy-server-0.0.1-SNAPSHOT.jar, cmd=null
+2019-07-08 15:48:52.885 [http-nio-8855-exec-1] ERROR DeployService - 文件创建失败：{}target.zip
+2019-07-08 15:49:05.156 [http-nio-8855-exec-1] ERROR DeployService - target.zip，文件转换失败D:\console-deploy-server\target\deployFile\target\target.zip (系统找不到指定的路径。)
+2019-07-08 15:49:57.600 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 29544 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 15:49:57.602 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 15:49:59.033 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 15:49:59.063 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:49:59.086 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 15:49:59.086 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 15:49:59.218 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 15:49:59.218 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1528 ms
+2019-07-08 15:49:59.726 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 15:49:59.984 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 15:50:00.198 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:50:00.277 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 15:50:00.296 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.92 seconds (JVM running for 5.688)
+2019-07-08 15:50:10.880 [http-nio-8855-exec-8] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 15:50:10.889 [http-nio-8855-exec-8] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 15:50:10.889 [http-nio-8855-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 15:50:10.897 [http-nio-8855-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-07-08 15:50:54.137 [http-nio-8855-exec-8] INFO  DeployService - 无法进行部署：deployF=null, cmd=null
+2019-07-08 15:52:00.513 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 27452 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 15:52:00.515 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 15:52:01.939 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 15:52:01.953 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:52:01.962 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 15:52:01.963 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 15:52:02.114 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 15:52:02.114 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1501 ms
+2019-07-08 15:52:02.576 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 15:52:02.696 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 15:52:02.780 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:52:02.837 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 15:52:02.842 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.314 seconds (JVM running for 4.636)
+2019-07-08 15:52:15.766 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 15:52:15.775 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 15:52:15.775 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 15:52:15.781 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-07-08 15:52:57.679 [http-nio-8855-exec-2] INFO  DeployService - 无法进行部署：deployF=D:\console-deploy-server\target\deployFile\target\console-deploy-server-0.0.1-SNAPSHOT.jar, cmd=null
+2019-07-08 15:55:50.014 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 9820 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 15:55:50.017 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 15:55:51.535 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 15:55:51.561 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:55:51.571 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 15:55:51.571 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 15:55:51.690 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 15:55:51.690 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1609 ms
+2019-07-08 15:55:52.085 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 15:55:52.201 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 15:55:52.292 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 15:55:52.328 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 15:55:52.332 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.007 seconds (JVM running for 4.499)
+2019-07-08 15:56:02.714 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 15:56:02.721 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 15:56:02.721 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 15:56:02.727 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-07-08 15:56:50.917 [http-nio-8855-exec-2] INFO  DeployService - 无法进行部署：deployF=D:\console-deploy-server\target\deployFile\target\console-deploy-server-0.0.1-SNAPSHOT.jar, cmd=null
+2019-07-08 16:02:08.078 [http-nio-8855-exec-6] ERROR DeployService - target.zip，文件转换失败D:\console-deploy-server\target\deployFile\target\target.zip (系统找不到指定的路径。)
+2019-07-08 16:07:35.462 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 22948 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 16:07:35.464 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 16:07:37.341 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 16:07:37.354 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 16:07:37.363 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 16:07:37.363 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 16:07:37.492 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 16:07:37.493 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1599 ms
+2019-07-08 16:07:37.882 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 16:07:37.988 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 16:07:38.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 16:07:38.157 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 16:07:38.162 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.972 seconds (JVM running for 5.144)
+2019-07-08 16:07:49.082 [http-nio-8855-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 16:07:49.090 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 16:07:49.090 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 16:07:49.096 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-07-08 16:07:53.157 [http-nio-8855-exec-1] INFO  DeployService - 无法进行部署：deployF=D:\console-deploy-server\target\deployFile\target\console-deploy-server-0.0.1-SNAPSHOT.jar, cmd=null
+2019-07-08 16:09:51.342 [http-nio-8855-exec-5] INFO  ProcessService - 启动程序...
+2019-07-08 16:10:35.276 [http-nio-8855-exec-8] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
+2019-07-08 16:10:51.617 [http-nio-8855-exec-6] INFO  ProcessService - 进程关闭成功.
+2019-07-08 16:11:49.133 [http-nio-8855-exec-6] INFO  ProcessService - 启动程序...
+2019-07-08 16:12:31.027 [http-nio-8855-exec-5] INFO  ProcessService - 进程关闭成功.
+2019-07-08 16:12:37.309 [http-nio-8855-exec-7] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 16:12:37.310 [http-nio-8855-exec-7] INFO  ProcessService - 启动程序...
+2019-07-08 16:15:27.935 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 25704 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 16:15:27.938 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 16:15:29.075 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 16:15:29.091 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 16:15:29.151 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 16:15:29.151 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 16:15:29.259 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 16:15:29.259 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1281 ms
+2019-07-08 16:15:29.527 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 16:15:29.624 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 16:15:29.712 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 16:15:29.757 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 16:15:29.761 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 2.679 seconds (JVM running for 3.868)
+2019-07-08 16:15:38.875 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 16:15:38.887 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 16:15:38.888 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 16:15:38.892 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-07-08 16:16:37.060 [http-nio-8855-exec-9] INFO  DeployService - 无法进行部署：deployF=D:\console-deploy-server\target\deployFile\target\console-deploy-server-0.0.1-SNAPSHOT.jar, cmd=null
+2019-07-08 16:16:45.490 [http-nio-8855-exec-6] INFO  ProcessService - 启动程序...
+2019-07-08 16:17:12.785 [http-nio-8855-exec-8] INFO  ProcessService - 进程关闭成功.
+2019-07-08 16:17:13.435 [http-nio-8855-exec-8] INFO  ProcessService - 启动程序...
+2019-07-08 16:17:48.637 [http-nio-8855-exec-4] INFO  ProcessService - 进程关闭成功.
+2019-07-08 16:17:49.210 [http-nio-8855-exec-4] INFO  ProcessService - 启动程序...
+2019-07-08 16:17:56.436 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 27020 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 16:17:56.439 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 16:17:58.219 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 16:17:58.235 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 16:17:58.256 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 16:17:58.256 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 16:17:58.375 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 16:17:58.375 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1700 ms
+2019-07-08 16:17:58.885 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 16:18:08.813 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 28948 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 16:18:08.816 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 16:18:10.172 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 16:18:10.187 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 16:18:10.198 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 16:18:10.198 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 16:18:10.380 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 16:18:10.381 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1472 ms
+2019-07-08 16:18:10.845 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 16:18:10.977 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 16:18:11.088 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 16:18:11.133 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 16:18:11.136 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.884 seconds (JVM running for 5.143)
+2019-07-08 16:18:16.612 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 16:18:16.618 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 16:18:16.619 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 16:18:16.623 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-07-08 16:18:37.166 [http-nio-8855-exec-3] INFO  DeployService - 无法进行部署：deployF=D:\console-deploy-server\target\deployFile\target\console-deploy-server-0.0.1-SNAPSHOT.jar, cmd=null
+2019-07-08 16:19:20.836 [http-nio-8855-exec-7] INFO  ProcessService - 启动程序...
+2019-07-08 16:28:14.961 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 29276 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 16:28:14.964 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 16:28:16.263 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 16:28:16.290 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 16:28:16.305 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 16:28:16.305 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 16:28:16.415 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 16:28:16.415 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1300 ms
+2019-07-08 16:28:16.752 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 16:28:16.882 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 16:28:16.974 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 16:28:17.019 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 16:28:17.023 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 2.993 seconds (JVM running for 5.049)
+2019-07-08 16:28:26.296 [http-nio-8855-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 16:28:26.303 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 16:28:26.303 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 16:28:26.310 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-07-08 16:28:28.672 [http-nio-8855-exec-1] INFO  ProcessService - 启动程序...
+2019-07-08 17:16:15.934 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 23852 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 17:16:15.936 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 17:16:17.583 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 17:16:17.607 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:16:17.619 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 17:16:17.620 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 17:16:17.778 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 17:16:17.779 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1797 ms
+2019-07-08 17:16:26.527 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 29316 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 17:16:26.530 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 17:16:28.130 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 17:16:28.171 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:16:28.192 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 17:16:28.192 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 17:16:28.311 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 17:16:28.311 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1736 ms
+2019-07-08 17:16:28.630 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 17:16:28.740 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 17:16:28.826 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:16:28.866 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 17:16:28.872 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 4.299 seconds (JVM running for 5.834)
+2019-07-08 17:16:32.487 [http-nio-8855-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 17:16:32.494 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 17:16:32.494 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 17:16:32.500 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-07-08 17:16:49.016 [http-nio-8855-exec-10] INFO  ProcessService - 启动程序...
+2019-07-08 17:17:29.649 [http-nio-8855-exec-6] INFO  ProcessService - 启动程序...
+2019-07-08 17:20:58.093 [http-nio-8855-exec-4] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 17:21:01.419 [http-nio-8855-exec-4] INFO  ProcessService - 启动程序...
+2019-07-08 17:29:16.836 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 25700 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 17:29:16.839 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 17:29:18.392 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 17:29:18.421 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:29:18.433 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 17:29:18.433 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 17:29:18.548 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 17:29:18.548 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1615 ms
+2019-07-08 17:29:18.916 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 17:29:19.053 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 17:29:19.158 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:29:19.203 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 17:29:19.224 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.344 seconds (JVM running for 5.0)
+2019-07-08 17:29:28.430 [http-nio-8855-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 17:29:28.443 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 17:29:28.444 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 17:29:28.457 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-07-08 17:29:48.563 [http-nio-8855-exec-2] INFO  ProcessService - 启动程序...
+2019-07-08 17:30:09.798 [http-nio-8855-exec-7] INFO  ProcessService - 进程关闭成功.
+2019-07-08 17:30:09.799 [http-nio-8855-exec-7] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 17:30:29.331 [http-nio-8855-exec-7] INFO  ProcessService - 启动程序...
+2019-07-08 17:36:01.528 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 27316 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 17:36:01.561 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 17:36:02.895 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 17:36:02.908 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:36:02.918 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 17:36:02.918 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 17:36:03.022 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 17:36:03.022 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1340 ms
+2019-07-08 17:36:03.394 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 17:36:03.519 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 17:36:03.622 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:36:03.655 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 17:36:03.659 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.356 seconds (JVM running for 4.955)
+2019-07-08 17:57:02.301 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 28132 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 17:57:02.303 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 17:57:03.665 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 17:57:03.678 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:57:03.688 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 17:57:03.688 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 17:57:03.841 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 17:57:03.842 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1389 ms
+2019-07-08 17:57:04.164 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 17:57:04.351 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 17:57:04.437 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:57:04.480 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 17:57:04.483 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.372 seconds (JVM running for 5.077)
+2019-07-08 17:57:13.864 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 17:57:13.871 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 17:57:13.871 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 17:57:13.877 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-07-08 17:57:24.024 [http-nio-8855-exec-9] INFO  ProcessService - 启动程序...
+2019-07-08 17:57:44.913 [http-nio-8855-exec-2] INFO  ProcessService - 进程关闭成功.
+2019-07-08 17:57:44.924 [http-nio-8855-exec-2] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 17:57:44.941 [http-nio-8855-exec-2] INFO  ProcessService - 启动程序...
+2019-07-08 17:58:48.710 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 28856 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 17:58:48.712 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 17:58:49.920 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 17:58:49.933 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:58:49.942 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 17:58:49.942 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 17:58:50.060 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 17:58:50.060 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1245 ms
+2019-07-08 17:58:50.404 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 17:58:50.545 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 17:58:50.618 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 17:58:50.646 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 17:58:50.650 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.51 seconds (JVM running for 5.637)
+2019-07-08 17:58:57.336 [http-nio-8855-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 17:58:57.344 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 17:58:57.344 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 17:58:57.353 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-07-08 17:58:59.120 [http-nio-8855-exec-1] INFO  ProcessService - 启动程序...
+2019-07-08 17:59:22.933 [http-nio-8855-exec-3] INFO  ProcessService - 进程关闭成功.
+2019-07-08 18:01:39.213 [http-nio-8855-exec-3] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 18:01:54.816 [http-nio-8855-exec-3] INFO  ProcessService - 启动程序...
+2019-07-08 18:02:47.650 [http-nio-8855-exec-7] INFO  ProcessService - 进程关闭成功.
+2019-07-08 18:03:19.816 [http-nio-8855-exec-8] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 18:03:19.817 [http-nio-8855-exec-8] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 18:03:19.817 [http-nio-8855-exec-8] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 18:03:19.818 [http-nio-8855-exec-8] INFO  ProcessService - 启动程序...
+2019-07-08 18:15:38.205 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 27592 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 18:15:38.208 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 18:15:39.592 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 18:15:39.607 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 18:15:39.617 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 18:15:39.618 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 18:15:39.745 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 18:15:39.745 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1404 ms
+2019-07-08 18:15:40.041 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 18:15:40.180 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 18:15:40.272 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 18:15:40.302 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 18:15:40.305 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.504 seconds (JVM running for 4.765)
+2019-07-08 18:15:46.891 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 18:15:46.945 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 18:15:46.946 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 18:15:46.975 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 29 ms
+2019-07-08 18:15:57.086 [http-nio-8855-exec-4] INFO  ProcessService - 启动程序...
+2019-07-08 18:16:19.693 [http-nio-8855-exec-9] INFO  ProcessService - 进程关闭成功.
+2019-07-08 18:16:26.365 [http-nio-8855-exec-2] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 18:16:26.365 [http-nio-8855-exec-2] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 18:16:26.366 [http-nio-8855-exec-2] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 18:16:26.367 [http-nio-8855-exec-2] INFO  ProcessService - 启动程序...
+2019-07-08 18:17:50.031 [http-nio-8855-exec-2] INFO  ProcessService - 进程关闭成功.
+2019-07-08 18:17:50.066 [http-nio-8855-exec-2] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 18:17:50.067 [http-nio-8855-exec-2] INFO  ProcessService - 启动程序...
+2019-07-08 18:19:05.459 [http-nio-8855-exec-3] INFO  ProcessService - 进程关闭成功.
+2019-07-08 18:19:12.840 [http-nio-8855-exec-5] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 18:19:12.841 [http-nio-8855-exec-5] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 18:19:12.841 [http-nio-8855-exec-5] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 18:19:12.841 [http-nio-8855-exec-5] INFO  ProcessService - 启动程序...
+2019-07-08 18:19:30.022 [http-nio-8855-exec-8] INFO  ProcessService - 进程关闭成功.
+2019-07-08 18:20:28.606 [http-nio-8855-exec-10] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 18:20:28.606 [http-nio-8855-exec-10] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 18:20:28.606 [http-nio-8855-exec-10] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 18:20:28.606 [http-nio-8855-exec-10] INFO  ProcessService - 启动程序...
+2019-07-08 18:23:03.308 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 25796 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 18:23:03.312 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 18:23:04.926 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 18:23:04.944 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 18:23:04.955 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 18:23:04.955 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 18:23:05.083 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 18:23:05.084 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1729 ms
+2019-07-08 18:23:05.453 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 18:23:05.580 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 18:23:05.675 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 18:23:05.709 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 18:23:05.712 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.508 seconds (JVM running for 4.834)
+2019-07-08 18:23:22.567 [http-nio-8855-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 18:23:22.575 [http-nio-8855-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 18:23:22.576 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 18:23:22.583 [http-nio-8855-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-07-08 18:23:33.240 [http-nio-8855-exec-4] INFO  ProcessService - 启动程序...
+2019-07-08 18:23:50.983 [http-nio-8855-exec-3] INFO  ProcessService - 进程关闭成功.
+2019-07-08 18:25:03.683 [http-nio-8855-exec-3] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 18:25:03.684 [http-nio-8855-exec-3] INFO  ProcessService - 启动程序...
+2019-07-08 18:25:41.699 [http-nio-8855-exec-8] INFO  ProcessService - 进程关闭成功.
+2019-07-08 18:26:01.105 [http-nio-8855-exec-6] WARN  ProcessService - 重复关闭进程!当前进程已经处于关闭状态!
+2019-07-08 18:26:01.138 [http-nio-8855-exec-6] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 18:26:01.138 [http-nio-8855-exec-6] INFO  ProcessService - 启动程序...
+2019-07-08 18:27:13.904 [main] INFO  ConsoleDeployServerApplication - Starting ConsoleDeployServerApplication on JXL-20170825TXC with PID 28628 (D:\console-deploy-server\target\classes started by wudongchun in D:\console-deploy-server)
+2019-07-08 18:27:13.906 [main] INFO  ConsoleDeployServerApplication - No active profile set, falling back to default profiles: default
+2019-07-08 18:27:15.375 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8855 (http)
+2019-07-08 18:27:15.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2019-07-08 18:27:15.397 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 18:27:15.397 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-08 18:27:15.536 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-08 18:27:15.536 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1551 ms
+2019-07-08 18:27:15.856 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 18:27:15.971 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-08 18:27:16.061 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8855"]
+2019-07-08 18:27:16.109 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8855 (http) with context path ''
+2019-07-08 18:27:16.115 [main] INFO  ConsoleDeployServerApplication - Started ConsoleDeployServerApplication in 3.452 seconds (JVM running for 4.793)
+2019-07-08 18:27:30.470 [http-nio-8855-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1546480912; s_fid=1B625D2FA62AC569-121A042867E0B9EF; trkId=922D2B6D-852C-486E-BF79-A2C923D364C8; CNZZDATA4269617=cnzz_eid%3D1536483362-1546918098-%26ntime%3D1546918098; Hm_lvt_9258d8a5509ecae2124d112a80dfc8fc=1549957391; Hm_lvt_fd500be904f859383368ab88b58277d2=1550914171; Hm_lvt_fbc5a7b80a8b9245688afa230ee8982f=1554271621; CNZZDATA2717995=cnzz_eid%3D757272013-1554606174-%26ntime%3D1554606174; Hm_lvt_bd92981ac2860c42757ba3a2f27ea3c2=1554606688; CNZZDATA1273619220=709583577-1554364324-%7C1557290385; CNZZDATA1265190995=259641913-1557295094-%7C1557295094] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-07-08 18:27:30.479 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-08 18:27:30.480 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-08 18:27:30.486 [http-nio-8855-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-07-08 18:27:32.525 [http-nio-8855-exec-1] INFO  ProcessService - 启动程序...
+2019-07-08 18:27:50.530 [http-nio-8855-exec-2] INFO  ProcessService - 进程关闭成功.
+2019-07-08 18:27:50.593 [http-nio-8855-exec-2] INFO  ProcessService - 删除重复项目进程:console-deploy-server-0.0.1-SNAPSHOT.jar
+2019-07-08 18:27:50.602 [http-nio-8855-exec-2] INFO  ProcessService - 启动程序...

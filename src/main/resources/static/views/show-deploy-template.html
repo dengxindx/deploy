@@ -1,0 +1,15 @@
+<br/>
+<div style="margin-left:300px; width:70%;text-align:center" class="form-group">
+    <table class="table table-hover">
+        <h3><strong style="text-align:center">选择需要操作的项目</strong></h3>
+        <tbody>
+        <tr ng-repeat="(key,value) in deploys">
+            <td class="col-md-6">{{key}}</td>
+            <td class="col-md-2" ng-if="value==true"><span style="color: green">正在运行</span></td>
+            <td class="col-md-2" ng-if="value==false"><span style="color: red">已停止</span></td>
+            <td class="col-md-2"><a href="javascript:void(0)" ng-click="stop(key)">停止</a></td>
+            <td class="col-md-2"><a href="javascript:void(0)" ng-click="restart(key)">重启</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>

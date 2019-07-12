@@ -1,0 +1,15 @@
+server:
+  port: 8855
+  servlet:
+    session:
+      # session-10min
+      timeout: 600
+
+# file-length
+spring:
+  servlet:
+    multipart:
+      # single-file-length
+      max-file-size: 102400000
+      # single-file-total-length
+      max-request-size: 102400000
