@@ -14,8 +14,9 @@
     <br/>
     <br/>
     <div class="col-sm-offset-2 col-sm-6">
-        <div class="col-sm-2">
+        <div class="col-sm-3">
             <button type="submit" class="btn btn-default" id="uploadBtn" ng-click="deploy()">部署</button>
+            <font size="3" color="red" ng-show="deploying">&nbsp;&nbsp;部署中...</font>
         </div >
 
         <div class="col-sm-10" ng-if="st.success==true">
