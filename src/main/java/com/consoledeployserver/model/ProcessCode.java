@@ -4,6 +4,8 @@ public enum ProcessCode {
 
     API_INVOKE_SUCCESS("接口调用成功"),
 
+    API_INVOKE_FAIL("接口调用失败"),
+
     DEPLOY_FAILED("部署失败"),
 
     THREAD_RUNING("进程已经启动"),

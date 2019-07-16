@@ -242,7 +242,7 @@ public class DeployService {
         } else if (originalFilename.endsWith(".jar")){
             name = StringUtils.removeEnd(originalFilename, ".jar");
         }
-        File folder = new File(path + "/" + name + System.currentTimeMillis());
+        File folder = new File(path + "/" + name + "_sp_" + System.currentTimeMillis());
         if(!folder.isDirectory()) {
             folder.mkdir();
         }

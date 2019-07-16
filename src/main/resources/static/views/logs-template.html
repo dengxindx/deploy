@@ -1,0 +1,37 @@
+<br/>
+<div style="margin-left:300px; width:70%;text-align:center" class="form-group" ng-show="logsClick">
+    <table class="table table-hover">
+        <h3><strong style="text-align:center">选择项目日志</strong></h3>
+        <tbody>
+        <tr ng-repeat="x in deploysLogs">
+            <td class="col-md-6"><a href="javascript:void(0)" ng-click="logs(x)">{{x}}</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div style="margin-left:300px; width:70%;text-align:center" class="form-group" ng-show="!logsClick">
+    <table class="table table-hover" ng-show="filelog">
+        <h3><strong style="text-align:center">【{{jarName}}】日志文件</strong></h3>
+        <tbody>
+        <tr ng-repeat="x in filelogs">
+            <td class="col-md-6"><a href="javascript:void(0)" ng-click="showLog(x, 1)">{{x}}</a></td>
+        </tr>
+        </tbody>
+    </table>
+    <button ng-show="showFilelog" type="button" class="btn btn-default" ng-click="showDeployBack()">返回</button>
+
+    <div ng-show="!filelog">
+        <textarea readonly style="margin: 0px; height: 500px; width: 1380px;">{{fileContext}}</textarea>
+        <button type="button" class="btn btn-default" ng-click="showBack()">返回</button>
+        <br>
+        <ul class="pagination">
+            <li><a href="javascript:void(0)" ng-click="firstPage()">首页</a></li>
+            <li><a href="javascript:void(0)" ng-click="prev()">&laquo;</a></li>
+            <li ng-repeat="x in pageCount" ng-class="{'active': x == currentPage}">
+                <a href="javascript:void(0)" ng-click="clickPage(x)">{{x}}</a>
+            </li>
+            <li><a href="javascript:void(0)" ng-click="next()">&raquo;</a></li>
+            <li><a href="javascript:void(0)" ng-click="lastPage()">尾页</a></li>
+        </ul>
+    </div>
+</div>
