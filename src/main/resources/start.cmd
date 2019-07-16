@@ -1,0 +1,1 @@
+java -Xms512m -Xmx2560m -XX:MinHeapFreeRatio=20 -XX:MaxHeapFreeRatio=30 -Dfile.encoding=UTF-8 -jar console-deploy-server-0.0.1-SNAPSHOT
