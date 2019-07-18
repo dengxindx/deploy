@@ -26,4 +26,11 @@ public class TaskService {
         logsService.cleanLog();
         log.info("清理日志完成....");
     }
+
+    @Scheduled(cron = "0 0 0 * * ?")
+    public void rollingLog(){
+        log.info("定时任务开始生成新的日志....");
+        logsService.rollingLog();
+        log.info("滚动日志完成....");
+    }
 }

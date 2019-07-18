@@ -108,10 +108,10 @@ public class ProcessService {
         }
 
 
-        SimpleDateFormat yyyyMMddHHmmss = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
-        String format = yyyyMMddHHmmss.format(new Date());
-
-        File output_file = new File(file.getParent() + "/" + file.getName() + format + ".log");                         // 指定一个输出文件
+//        SimpleDateFormat yyyyMMddHHmmss = new SimpleDateFormat("yyyyMMdd_HHmmss");
+//        String format = yyyyMMddHHmmss.format(new Date());
+//        File output_file = new File(file.getParent() + "/" + file.getName() + "_sps_" + format + "_sps_.log");          // 指定一个输出文件
+        File output_file = new File(file.getParent() + "/" + file.getName() + "_sps_.log");                             // 指定一个输出文件
 
         ProcessBuilder processBuilder = new ProcessBuilder();                                                           // 创建进程
         processBuilder.directory(new File(file.getParent()));                                                           // 设置启动项目当前所在的目录为工作目录

@@ -3,6 +3,9 @@
     <table class="table table-hover">
         <h3><strong style="text-align:center">选择项目日志</strong></h3>
         <tbody>
+        <tr>
+            <td class="col-md-6"><a href="javascript:void(0)" ng-click="logs('deployLogs')">deployLogs</a></td>
+        </tr>
         <tr ng-repeat="x in deploysLogs">
             <td class="col-md-6"><a href="javascript:void(0)" ng-click="logs(x)">{{x}}</a></td>
         </tr>
