@@ -67,6 +67,11 @@ public class LogsService {
         
         if (StringUtils.equals("deployLogs", name)){
             // 查找本项目日志
+            log.info("查询路径老：{}", local_log_path);
+            if (!local_log_path.contains("/target")){
+                local_log_path = local_log_path.replace("/__logs", "") + "/target/__logs";
+            }
+            log.info("查询路径新：{}", local_log_path);
             checkFile(fileList, new File(local_log_path), name);
         }else {
             if (!DeployUtil.deployMap.containsKey(name))
