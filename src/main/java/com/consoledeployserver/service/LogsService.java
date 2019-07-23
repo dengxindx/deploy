@@ -5,6 +5,8 @@ import com.consoledeployserver.model.ProcessCode;
 import com.consoledeployserver.model.Return;
 import com.consoledeployserver.util.ConfigUtil;
 import com.consoledeployserver.util.DeployUtil;
+import com.consoledeployserver.util.TimeUtil;
+import com.consoledeployserver.util.UnzipUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -62,7 +64,9 @@ public class LogsService {
     public Return logs(String name) {
         log.info("查看【{}】日志", name);
         // 查询包含该项目名的所有日志文件
-        List<String> fileNameList = new ArrayList<>();
+
+        // 同名文件获取最后一个
+        Set<String> fileNameSet = new HashSet<>();
         List<File> fileList = new ArrayList<>();
         
         if (StringUtils.equals("deployLogs", name)){
@@ -76,16 +80,26 @@ public class LogsService {
         }else {
             if (!DeployUtil.deployMap.containsKey(name))
                 return Return.FAIL(ProcessCode.FILE_IS_NOT_EXIST);
-            checkFile(fileList, new File(path), name);   
+            checkFile(fileList, new File(path), name);
         }
 
         Map<String, File> map = new HashMap<>();
+
+        SimpleDateFormat sdf = TimeUtil.threadLocal.get();
+
         for (File file : fileList) {
-            fileNameList.add(file.getName());
-            map.put(file.getName(), file);
+            // 文件名加上父路径的时间，保证唯一性
+            String fileName = file.getName();
+            String time = "";
+            if (file.getParent().contains("_sp_")){
+                time = file.getParent().split("_sp_")[1];
+                if (time.matches("\\d+")) time = sdf.format(new Date(Long.parseLong(time))) + "_";
+            }
+            fileNameSet.add(time + fileName);
+            map.put(time + fileName, file);
         }
         deployMap.put(name, map);
-        return Return.SUCCESS(ProcessCode.API_INVOKE_SUCCESS).put("data", fileNameList);
+        return Return.SUCCESS(ProcessCode.API_INVOKE_SUCCESS).put("data", fileNameSet);
     }
 
     /**
@@ -177,6 +191,19 @@ public class LogsService {
      */
     public void cleanLogByPath(File file){
         if (file.isDirectory()){
+            // 子文件一级目录下没有.log日志文件，说明该文件夹下没有部署文件，日志已经超过了1个星期，直接删除掉所有
+            boolean clean = true;
+            for (File f : file.listFiles()) {
+                if (f.getName().endsWith(".log")) {
+                    clean = false;
+                    break;
+                }
+            }
+            if (clean){
+                UnzipUtil.delete(file);
+                return;
+            }
+
             SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
             for (File f : file.listFiles()) {
                 String name = f.getName();
@@ -197,20 +224,17 @@ public class LogsService {
         }
     }
 
-    public void rollingLog() {
-        // 获取deployFile文件下所有部署项目
-        File file = new File(path);
-        if (!file.isDirectory())
-            return;
-
+    /**
+     * 滚动部署项目的日志
+     */
+    public static void rollingLog() {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
         String beforeDateStr = sdf.format(DateUtils.addDays(new Date(), -1)); // 前一天
 
-        for (File f : file.listFiles()) {
-            // 因为我将项目的输出放在一级目录下，所以直接在一级目录下找日志文件。（_sps_.log结尾的日志文件）
-            if (!f.isDirectory())
-                continue;
-
+        // 获取到项目jar包的父路径（带时间的目录）
+        for (ProcessService processService : DeployUtil.deployMap.values()) {
+            String path = processService.getPath();
+            File f = new File(path);
             // 一级目录
             for (File ff : f.listFiles()) {
                 if (ff.getName().endsWith("_sps_.log")){
@@ -238,7 +262,7 @@ public class LogsService {
                             fileWriter.write("");
                             fileWriter.flush();
                         }catch (Exception e){
-                            log.error("清除日志异常，{}", file.getName());
+                            log.error("清除日志异常，{}", ff.getName());
                         }
                     }
                 }

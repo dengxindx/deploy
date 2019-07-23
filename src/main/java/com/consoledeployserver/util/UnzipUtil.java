@@ -137,13 +137,18 @@ public class UnzipUtil {
         }
     }
 
-    public static boolean delete(String path) {
-        File file = new File(path);
+    //删除所有文件
+    public static void delete(File file) {
         //noinspection SimplifiableIfStatement
         if (!file.exists()) {
-            return true;
+            return;
         } else {
-            return file.delete();
+            if (file.isDirectory()){
+                for (File f : file.listFiles()) {
+                    delete(f);
+                }
+            }
+            file.delete();
         }
     }
 
@@ -165,6 +170,44 @@ public class UnzipUtil {
                     if (!file.getName().endsWith(".log")){
                         Thread.sleep(10);
                         file.delete();
+                    }
+                }
+            }
+        }catch (Exception e){
+            log.error("删除文件异常，path={}", path);
+        }
+    }
+
+    /**
+     * 项目初始化操作
+     * @param path
+     * @param todayStr
+     */
+    public static void deleteDirectory2(String path, String todayStr) {
+        try {
+            File file = new File(path);
+            if (file.exists()) {
+                if (file.isDirectory()) {
+                    if (file.listFiles() != null) {
+                        for (File f : file.listFiles()) {
+                            deleteDirectory2(f.getPath(), todayStr);
+                        }
+                    }
+                    file.delete();
+                } else {
+                    if (!file.getName().endsWith(".log")){
+                        Thread.sleep(10);
+                        file.delete();
+                    }
+                    if (file.getName().endsWith("_sps_.log")){
+                        String fileName = file.getName();
+                        fileName = file.getParent() + "/" + fileName.split("_sps_")[0] + "_sps_" + todayStr + ".log";
+                        File f = new File(fileName);
+                        if (!f.exists()){
+                            file.renameTo(f);
+                        }else {
+                            file.renameTo(new File(file.getParent() + "/sp_" + file.getName().split("_sps_")[0] + "_sps_" + todayStr + ".log"));
+                        }
                     }
                 }
             }
