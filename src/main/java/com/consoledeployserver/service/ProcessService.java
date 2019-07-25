@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 维护程序进程的服务
@@ -76,6 +77,24 @@ public class ProcessService {
             }
         }
         log.error("进程在5秒内没有停止!请检查部署程序!");                                                               // 5秒内没有停止程序则返回false
+
+        // 如果没有终止则进行强制终止
+        if (theProcess.isAlive()){
+            theProcess.destroyForcibly();
+        }
+        for (int i = 0; i < 3; i++) {
+            if (!theProcess.isAlive()) {
+                log.info("进程强制关闭成功.");
+                return true;
+            } else {
+                try {
+                    TimeUnit.SECONDS.sleep(1);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        log.error("进程强制停止失败!");
 
         return false;
     }

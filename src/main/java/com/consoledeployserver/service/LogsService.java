@@ -259,7 +259,7 @@ public class LogsService {
 
                         // 清除日志内容
                         try(FileWriter fileWriter =new FileWriter(ff)){
-                            fileWriter.write("");
+                            fileWriter.write(sdf.format(new Date()));
                             fileWriter.flush();
                         }catch (Exception e){
                             log.error("清除日志异常，{}", ff.getName());
