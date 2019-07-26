@@ -26,7 +26,7 @@ public class LogsService {
     /**
      * 设定每页展示的行数
      */
-    private static int pageLine = 1000;
+    private static int pageLine = 500;
 
     /**
      * 部署项目名->返回名称，文件
@@ -150,7 +150,7 @@ public class LogsService {
 
         StringBuilder sb = new StringBuilder();
         for (int i = startLine; i < list.size() && i < endLine; i++){
-            sb.append(list.get(i) + "\n");
+            sb.append(list.get(i).replaceAll("\0", "") + "\n");
         }
 
         PageInfo pageInfo = new PageInfo();
@@ -258,8 +258,8 @@ public class LogsService {
                         }
 
                         // 清除日志内容
-                        try(FileWriter fileWriter =new FileWriter(ff)){
-                            fileWriter.write(sdf.format(new Date()));
+                        try(FileWriter fileWriter = new FileWriter(ff)){
+                            fileWriter.write("");
                             fileWriter.flush();
                         }catch (Exception e){
                             log.error("清除日志异常，{}", ff.getName());
