@@ -7,9 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
-import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.io.*;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -126,17 +124,12 @@ public class ProcessService {
             log.info("删除重复项目进程:{}", file.getName());
         }
 
-
-//        SimpleDateFormat yyyyMMddHHmmss = new SimpleDateFormat("yyyyMMdd_HHmmss");
-//        String format = yyyyMMddHHmmss.format(new Date());
-//        File output_file = new File(file.getParent() + "/" + file.getName() + "_sps_" + format + "_sps_.log");          // 指定一个输出文件
         File output_file = new File(file.getParent() + "/" + file.getName() + "_sps_.log");                             // 指定一个输出文件
 
         ProcessBuilder processBuilder = new ProcessBuilder();                                                           // 创建进程
         processBuilder.directory(new File(file.getParent()));                                                           // 设置启动项目当前所在的目录为工作目录
         processBuilder.command((cmd).split(" "));                                                                       // 设置在新窗口中运行
-        processBuilder.redirectOutput(output_file);
-        processBuilder.redirectError(output_file);
+        processBuilder.redirectErrorStream(true);                                                                       //将错误流重定向到输出流
 
         try {
             log.info("启动程序...");
@@ -149,6 +142,35 @@ public class ProcessService {
 
             // 成功启动后存储当前进程
             DeployUtil.deployMap.put(file.getName(), this);
+
+            new Thread(() -> {
+                File writeFile = output_file;
+                if (!writeFile.exists()){
+                    try {
+                        writeFile.createNewFile();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+
+                // 已经存在文件
+                try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(theProcess.getInputStream()))){
+                    String line = null;
+                    try(RandomAccessFile writer = new RandomAccessFile(writeFile, "rw")){
+                        while ((line = bufferedReader.readLine()) != null) {
+                            if (writeFile.length() == 0){
+                                writer.seek(0);
+                            }
+                            writer.write(line.getBytes());
+                            writer.write("\r\n".getBytes());
+                        }
+                    }catch (Exception e){
+                        log.error("追加日志异常，{}", writeFile.getName());
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }).start();
 
             return true;
         } catch (Exception e) {

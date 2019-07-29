@@ -257,11 +257,10 @@ public class LogsService {
                             log.error("复制到历史文件中异常:{}", ff.getName(), e);
                         }
 
-                        // 清除日志内容（产生文件空洞，用RandomAccessFile，进行指针偏移，设置到第一行，开启读写模式）
-                        try(FileWriter writer = new FileWriter(ff);RandomAccessFile fileWriter = new RandomAccessFile(ff, "rw")){
+                        // 清除日志内容
+                        try(FileWriter writer = new FileWriter(ff)){
                             writer.write("");
                             writer.flush();
-                            fileWriter.seek(0); // 移动指针到第一行
                         }catch (Exception e){
                             log.error("清除日志异常，{}", ff.getName());
                         }
